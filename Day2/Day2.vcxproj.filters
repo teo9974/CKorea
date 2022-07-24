@@ -15,31 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="_01_print.c">
+    <ClCompile Include="_01_scan.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_02_print.c">
+    <ClCompile Include="_02_scan.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_03_var.c">
+    <ClCompile Include="_03_oper.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_04_type.c">
+    <ClCompile Include="_04_oper.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_05_print.c">
+    <ClCompile Include="_05_oper.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="_06_oper.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="_07_oper.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_08_oper.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Review.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
