@@ -39,8 +39,5 @@
     <ClCompile Include="_08_oper.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Review.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
