@@ -18,13 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_01_scan.c" />
+    <ClCompile Include="_02_scan.c" />
+    <ClCompile Include="_03_oper.c" />
+    <ClCompile Include="_04_oper.c" />
+    <ClCompile Include="_05_oper.c" />
+    <ClCompile Include="_06_oper.c" />
+    <ClCompile Include="_07_oper.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6186e398-3ea3-498c-91b9-e293a65e2bfe}</ProjectGuid>
-    <RootNamespace>CKorea</RootNamespace>
+    <ProjectGuid>{f517f78b-d29d-455b-a564-19f2366077f1}</ProjectGuid>
+    <RootNamespace>Day2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>CK Day01</ProjectName>
+    <ProjectName>CK Day02</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,17 +136,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Review.c" />
-    <ClCompile Include="_01_print.c" />
-    <ClCompile Include="_02_print.c" />
-    <ClCompile Include="_03_var.c" />
-    <ClCompile Include="_04_type.c" />
-    <ClCompile Include="_05_print.c" />
-    <ClCompile Include="_06_oper.c" />
-    <ClCompile Include="_07_oper.c" />
-    <ClCompile Include="_08_oper.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
