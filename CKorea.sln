@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CKorea", "CKorea\CKorea.vcxproj", "{6186E398-3EA3-498C-91B9-E293A65E2BFE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CK Day01", "CKorea\CKorea.vcxproj", "{6186E398-3EA3-498C-91B9-E293A65E2BFE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day2", "Day2\Day2.vcxproj", "{F517F78B-D29D-455B-A564-19F2366077F1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CK Day02", "Day2\Day2.vcxproj", "{F517F78B-D29D-455B-A564-19F2366077F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CK Day03", "CK Day03\CK Day03.vcxproj", "{5BF2B634-CEEA-4007-B463-F83662D31DD3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "imageDlg", "imageDlg\imageDlg.vcxproj", "{F2B1A920-83B6-4726-9B63-D426C661DCDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,22 @@ Global
 		{F517F78B-D29D-455B-A564-19F2366077F1}.Release|x64.Build.0 = Release|x64
 		{F517F78B-D29D-455B-A564-19F2366077F1}.Release|x86.ActiveCfg = Release|Win32
 		{F517F78B-D29D-455B-A564-19F2366077F1}.Release|x86.Build.0 = Release|Win32
+		{5BF2B634-CEEA-4007-B463-F83662D31DD3}.Debug|x64.ActiveCfg = Debug|x64
+		{5BF2B634-CEEA-4007-B463-F83662D31DD3}.Debug|x64.Build.0 = Debug|x64
+		{5BF2B634-CEEA-4007-B463-F83662D31DD3}.Debug|x86.ActiveCfg = Debug|Win32
+		{5BF2B634-CEEA-4007-B463-F83662D31DD3}.Debug|x86.Build.0 = Debug|Win32
+		{5BF2B634-CEEA-4007-B463-F83662D31DD3}.Release|x64.ActiveCfg = Release|x64
+		{5BF2B634-CEEA-4007-B463-F83662D31DD3}.Release|x64.Build.0 = Release|x64
+		{5BF2B634-CEEA-4007-B463-F83662D31DD3}.Release|x86.ActiveCfg = Release|Win32
+		{5BF2B634-CEEA-4007-B463-F83662D31DD3}.Release|x86.Build.0 = Release|Win32
+		{F2B1A920-83B6-4726-9B63-D426C661DCDA}.Debug|x64.ActiveCfg = Debug|x64
+		{F2B1A920-83B6-4726-9B63-D426C661DCDA}.Debug|x64.Build.0 = Debug|x64
+		{F2B1A920-83B6-4726-9B63-D426C661DCDA}.Debug|x86.ActiveCfg = Debug|Win32
+		{F2B1A920-83B6-4726-9B63-D426C661DCDA}.Debug|x86.Build.0 = Debug|Win32
+		{F2B1A920-83B6-4726-9B63-D426C661DCDA}.Release|x64.ActiveCfg = Release|x64
+		{F2B1A920-83B6-4726-9B63-D426C661DCDA}.Release|x64.Build.0 = Release|x64
+		{F2B1A920-83B6-4726-9B63-D426C661DCDA}.Release|x86.ActiveCfg = Release|Win32
+		{F2B1A920-83B6-4726-9B63-D426C661DCDA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

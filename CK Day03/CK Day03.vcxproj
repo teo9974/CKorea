@@ -18,23 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\CKorea\Review.c" />
-    <ClCompile Include="_01_scan.c" />
-    <ClCompile Include="_02_scan.c" />
-    <ClCompile Include="_03_oper.c" />
-    <ClCompile Include="_04_oper.c" />
-    <ClCompile Include="_05_oper.c" />
-    <ClCompile Include="_06_oper.c" />
-    <ClCompile Include="_07_oper.c" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f517f78b-d29d-455b-a564-19f2366077f1}</ProjectGuid>
-    <RootNamespace>Day2</RootNamespace>
+    <ProjectGuid>{5bf2b634-ceea-4007-b463-f83662d31dd3}</ProjectGuid>
+    <RootNamespace>CKDay03</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>CK Day02</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,6 +104,7 @@
       <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <IntelJCCErratum>true</IntelJCCErratum>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -137,6 +127,15 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Review.c" />
+    <ClCompile Include="_01_if.c" />
+    <ClCompile Include="_02_if.c" />
+    <ClCompile Include="_03_if.c" />
+    <ClCompile Include="_04_if.c" />
+    <ClCompile Include="_05_if.c" />
+    <ClCompile Include="_06_switch.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

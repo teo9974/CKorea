@@ -128,7 +128,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Review.c" />
     <ClCompile Include="_01_print.c" />
     <ClCompile Include="_02_print.c" />
     <ClCompile Include="_03_var.c" />
